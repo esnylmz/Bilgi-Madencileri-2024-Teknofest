@@ -1,6 +1,9 @@
 # BİLGİ MADENCİLERİ TAKIMI, 2024 TEKNOFEST
 TEKNOFEST 2024 TÜRKÇE DOĞAL DİL İŞLEME YARIŞMASI
 
+![image](https://github.com/esnylmz/Bilgi-Madencileri-2024-Teknofest/assets/102979440/c0e732f8-7cc1-46a9-b57f-ba6d28987075)
+
+
 
 
 
