@@ -23,9 +23,9 @@ Takımımız 2024 yılında İstanbul Bilgi Üniversitesi Bilgisayar Mühendisli
 
 # PROJE PLANI
 
-- Yarışma için komünikasyon şirketlerine ait yorumlar çeşitli web sitelerinden web-scraping metodu kullanılarak çekilecektir. Farklı sitelerden toplanan komünikasyon şirketleri ve hizmetlerine yönelik yorumlar birleştirilerek ön işleme adımları uygulanacak olup, toplanan veriler sürecin sonunda tek veri seti olarak birleştirilecektir.
+- Yarışma için telekomünikasyon şirket ve servislerine ait yorumlar çeşitli web sitelerinden web-scraping metodu kullanılarak çekilecektir. Farklı sitelerden toplanan telekomünikasyon şirketleri ve hizmetlerine yönelik yorumlar birleştirilerek ön işleme adımları uygulanacak olup, toplanan veriler sürecin sonunda tek veri seti olarak birleştirilecektir.
 
-- Projenin veri kazıma ve veri ön işleme adımlarının class ve fonksiyonlar halinde toplanması ve ileride kullanıcıların kolay kullanımı için açık kaynaklı bir model oluşturulması planlanmaktadır.
+- Projenin veri kazıma ve veri ön-işleme adımlarının kullanıcılara sunulması ve bunun için bir model oluşturulması planlanmaktadır.
 
 - Çekilen veri üzerinde duygu analizi yapılması için BERT başta olmak üzere çeşitli doğal dil işleme modellerinin uygulanması planlanmaktadır. BERT modelinin seçilmesinin nedeni, Türkçe hassas ayarı ile daha önceden denenmiş olması ve önceki geliştirmelere bakarak, model üzerinde yeni bir fine-tune(modelin basit özelliklerinin öğrenilmesi için ayarlamalar yapılması) ile modelin tekrar eğitilerek domain bazlı  iyileştirilmesinin mümkün olmasıdır. 
 
