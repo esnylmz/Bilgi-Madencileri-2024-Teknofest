@@ -11,9 +11,9 @@ TEKNOFEST 2024 TÜRKÇE DOĞAL DİL İŞLEME YARIŞMASI
 Takımımız 2024 yılında İstanbul Bilgi Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisi olan Emine Esin Yılmaz, Ege Eylül Kırmızı ve Onur Çalışkan tarafından kurulmuştur. Takımımız 2024 yılı Türkçe Doğal Dil işleme Vaka Yarışmasına katılarak, sektör ile işbirliği içerisinde elde edilen verilerin Türkçe dil modelleri ile analizini, verilerin işlenerek sektöre fayda sağlayacak sonuçların ve model geliştirmelerinin elde edilmesini amaçlamaktadır. 
 
 ## Takım Üyeleri:
--Emine Esin YILMAZ-İstanbul Bilgi Üniversitesi-Bilgisayar Mühendisliği
--Ege Eylül Kırmızı-İstanbul Bilgi Üniversitesi-Bilgisayar Mühendisliği
--Onur Çalışkan-İstanbul Bilgi Üniversitesi-Bilgisayar Mühendisliği
+- Emine Esin YILMAZ-İstanbul Bilgi Üniversitesi-Bilgisayar Mühendisliği
+- Ege Eylül Kırmızı-İstanbul Bilgi Üniversitesi-Bilgisayar Mühendisliği
+- Onur Çalışkan-İstanbul Bilgi Üniversitesi-Bilgisayar Mühendisliği
 
 ## Takım İçerisindeki İş Bölümü:
 - Emine Esin YILMAZ-Takım Kaptanı, Developer
