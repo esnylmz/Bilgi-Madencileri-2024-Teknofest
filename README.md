@@ -30,3 +30,5 @@ Takımımız 2024 yılında İstanbul Bilgi Üniversitesi Bilgisayar Mühendisli
 - Çekilen veri üzerinde duygu analizi yapılması için BERT başta olmak üzere çeşitli doğal dil işleme modellerinin uygulanması planlanmaktadır. BERT modelinin seçilmesinin nedeni, Türkçe hassas ayarı ile daha önceden denenmiş olması ve önceki geliştirmelere bakarak, model üzerinde yeni bir fine-tune(modelin basit özelliklerinin öğrenilmesi için ayarlamalar yapılması) ile modelin tekrar eğitilerek domain bazlı  iyileştirilmesinin mümkün olmasıdır. 
 
 - Duygu analizi için kullanılacak modellerin yanında, TF-IDF veya NER(İsim Varlık Tanıma Modeli) kullanımları ile özellik çıkarımı, özelliklerin ağırlıklandırılması ve sınıflandırılmasının da projeye ek fayda getireceği düşünülmüştür. Bu düşünce üzerine belirtilen modellerin de kullanımı ile kapsamlı bir analiz oluşturulması amaçlanmaktadır.
+
+# PROJE SONUÇLARI
