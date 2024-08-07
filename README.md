@@ -18,9 +18,11 @@ Projemiz, Teknofest 2024 Türkçe Doğal Dil İşleme Senaryosu hedeflerine para
 
 Projemizde Türkçe sentiment modellerinin sektörün ihtiyacına göre labellar eklenerek fine-tune edilmesi ve iyileştirilmesi üzerine yoğunlaşılmıştır. 
 Turkcell veri seti özelinde yorumları elde edebilmek için duygu durumunda kullanılan negatif eitketi 2 sınıfa ayrılmıştır:
+
 - Negative - Service Issues  (Olumsuz - Hizmet ve Servis ile İlgili Sorunlar)
 - Negative - Pricing and Package Issues (Olumsuz - Fiyatlandırma ve Paket ile İlgili Sorunlar)
-Negatif etiketinin yukarıda belirtilen iki sınıfa ayrılması ile modelimizi kullanan kullanıcıların ürünlerini daha detaylı bir şekilde analiz etme ve farklı kategorileri kendi içinde değerlendirebilme imkanının geliştirilmesi üzerinde çalışma yapılmıştır.
+
+  Negatif etiketinin yukarıda belirtilen iki sınıfa ayrılması ile modelimizi kullanan kullanıcıların ürünlerini daha detaylı bir şekilde analiz etme ve farklı kategorileri kendi içinde değerlendirebilme imkanının geliştirilmesi üzerinde çalışma yapılmıştır.
 
 ## Veri Setinin Hazırlanması
 
