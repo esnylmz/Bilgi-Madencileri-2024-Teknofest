@@ -50,4 +50,5 @@ Projede fine-tune edilen savasy/bert-base-turkish-sentiment-cased duygu analizi 
 # MODELİN ÇALIŞTIRILMASI
 
 Proje dosyalarını klonladıktan sonra dataset'in olduğu path'i kod içerisinde değiştirmeniz gerekmektedir. Ardından eğer windows kullanıcısı iseniz star.bat dosyasını çalıştırarak http://127.0.0.1:8000/docs#/ url'inden erişim sağlayabilirsiniz.
+
 Mac ve linux kullanıcıları içinse, kodu vs code'da açtıktan sonra terminalden uvicorn server:app --reload komutu ile çalıştırabilirsiniz.
