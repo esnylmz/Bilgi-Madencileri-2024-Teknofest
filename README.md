@@ -47,7 +47,7 @@ Projemizde Negatif yorum sınıfını 2 kategoriye ayırarak sektörün ihtiyaç
 
 # Proje Sonuçları
 
-Projede fine-tune edilen savasy/bert-base-turkish-sentiment-cased duygu analizi modeli, etiketlenen yeni veriler ile 3 epoch sonucunda 0.89 accuracy (doğruluk) elde etmiştir. 
+Projede fine-tune edilen savasy/bert-base-turkish-sentiment-cased duygu analizi modeli, etiketlenen yeni veriler ile 8 epoch sonucunda 0.89 accuracy (doğruluk) elde etmiştir. 
 İki modelin birleştirilmesi ve web-servisinin ayağa kaldırılması sonucunda modelin elde ettiği sonuçlar aşağıdaki gibidir:
 
 ![Sentiment Modeli Fine-Tune Sonuçları](./image_accuracies.png)
