@@ -20,10 +20,10 @@ Takımımız 2024 yılında İstanbul Bilgi Üniversitesi Bilgisayar Mühendisli
 Projemiz, Teknofest 2024 Türkçe Doğal Dil İşleme Senaryosu hedeflerine paralel olarak, Turkcell şirketi ve hizmetleri hakkında kullanıcıların yorumlarının incelenmesi, bu yorumlardan varlık çıkarımı yapılması ve varlıkların cümle içindeki bağlamını da göz önüne alarak genel duygusunu belirleme üzerine odaklanmıştır.
 
 Projemizde Türkçe sentiment modellerinin sektörün ihtiyacına göre labellar eklenerek fine-tune edilmesi ve iyileştirilmesi üzerine yoğunlaşılmıştır. 
-Turkcell veri seti özelinde yorumları elde edebilmek için duygu durumunda kullanılan negatif eitketi 2 sınıfa ayrılmıştır:
+Turkcell veri seti özelinde yorumları elde edebilmek için duygu durumunda kullanılan 'negatif eitketi 2 sınıfa ayrılmıştır':
 
-- Negative - Service Issues  (Olumsuz - Hizmet ve Servis ile İlgili Sorunlar)
-- Negative - Pricing and Package Issues (Olumsuz - Fiyatlandırma ve Paket ile İlgili Sorunlar)
+- 'Negative - Service Issues'  (Olumsuz - Hizmet ve Servis ile İlgili Sorunlar)
+- 'Negative - Pricing and Package Issues' (Olumsuz - Fiyatlandırma ve Paket ile İlgili Sorunlar)
 
   Negatif etiketinin yukarıda belirtilen iki sınıfa ayrılması ile modelimizi kullanan kullanıcıların ürünlerini daha detaylı bir şekilde analiz etme ve farklı kategorileri kendi içinde değerlendirebilme imkanının geliştirilmesi üzerinde çalışma yapılmıştır.
 
@@ -35,7 +35,7 @@ Turkcell veri seti özelinde yorumları elde edebilmek için duygu durumunda kul
 
 ## Özellik Çıkarımı ve Sentiment (Duygu) Analizi Modellerinin Kullanımı ve Geliştirilmesi
 - Özellik çıkarımı için pre-trained bir model olan savasy/bert-base-turkish-ner-cased modeli kullanılmıştır. Model sonucu etiketlenen veride Organisation (Organizasyon) etiketli olan kelimeler filtrelenmiş, B-ORG ve I-ORG kelimeleri incelenmiş ve kelimelerin doğru bir şekilde birleştirilmesi için B-ORG ve I-ORG etiketli yarım kelimeleri birleştiren bir düzenleme fonksiyonu kod içine eklenmiştir. Bu fonksiyon ile NER sonucu elde edilen kelimelerin doğruluğu artırılmıştır ve yarım kalan kelime öbekleri elimine edilmiştir.
-- Sentiment (Duygu Analizi) için pre-trained bir model olan savasy/bert-base-turkish-sentiment-cased modeli fine-tune edilmiştir. Orijinalinde Negative ve Positive olmak üzere iki etikete sahip olan bu model, sektörün ihtiyacı göz önünde bulunarak etiketlerin çeşitlendirilmesi ve yorumun kolaylaştırılması için farklı etiketler üzerinde eğitilerek fine-tune edilmiştir. Fine-tune sonucu projemizde duygu analizinde kullanılan 4 etiket bulunmaktadır:
+- Sentiment (Duygu Analizi) için pre-trained bir model olan savasy/bert-base-turkish-sentiment-cased modeli fine-tune edilmiştir. Orijinalinde Negative ve Positive olmak üzere iki etikete sahip olan bu model, sektörün ihtiyacı göz önünde bulunarak etiketlerin çeşitlendirilmesi ve yorumun kolaylaştırılması için farklı etiketler üzerinde eğitilerek fine-tune edilmiştir. Fine-tune sonucu 'projemizde duygu analizinde kullanılan 4 etiket bulunmaktadır:'
 - Positive
 - Neutral
 - Negative - Service Issues
@@ -54,7 +54,7 @@ Projede fine-tune edilen savasy/bert-base-turkish-sentiment-cased duygu analizi 
 
 
 ### Model Sonucu API ile kullanıcı tarafından verilecek metin ve sonuçlardan bir örnek aşağıda verilmiştir.
-- Projemize api'a search-entity arama çubuğu da eklenerek kullanıcının istediği entity'i ve verdiği textlerde o entity tarafından gelen tüm sonuçları alması amaçlanmıştır.
+- Projemize api'a 'search-entity arama çubuğu' da eklenerek kullanıcının istediği entity'i ve verdiği textlerde o 'entity tarafından gelen tüm sonuçları alması' amaçlanmıştır.
 
 - Girdi örneği:
 <img src="./api.jpeg" alt="API" width="700" height="400"/>
@@ -67,6 +67,6 @@ Projede fine-tune edilen savasy/bert-base-turkish-sentiment-cased duygu analizi 
 Proje dosyalarını klonladıktan sonra dataset'in olduğu path'i kod içerisinde değiştirmeniz gerekmektedir. Ardından eğer windows kullanıcısı iseniz star.bat dosyasını çalıştırarak http://127.0.0.1:8000/docs#/ url'inden erişim sağlayabilirsiniz.
 
 Mac ve linux kullanıcıları içinse, kodu vs code'da açtıktan sonra terminalden
-- uvicorn server:app --reload
+- 'uvicorn server:app --reload'
   
 komutu ile çalıştırabilirsiniz.
