@@ -39,6 +39,7 @@ Turkcell veri seti özelinde yorumları elde edebilmek için duygu durumunda kul
 - Neutral
 - Negative - Service Issues
 - Negative - Pricing and Package Issues
+  
 Modelin fine-tune edilmesi için web kazıma ve Twitter Turkcell verilerinin birleştirilmesi ile elde edilen veriseti takmımız tarafından eğitim için etiketlenmiştir.
 
 Projemizde Negatif yorum sınıfını 2 kategoriye ayırarak sektörün ihtiyaçlarına yönelik bir model oluşturulması amaçlanmıştır. Var olan modeller ve veri seti incelendiğinde modellerin veri setinde bulunan yorumların analizini tam olarak karşılayacak etiketlere sahip olmadığı tespit edilmiş ve projemiz bu durumun iyileştirilmesine yönelik bir çalışma yürütmüştür.
