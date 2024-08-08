@@ -4,6 +4,7 @@ TEKNOFEST 2024 TÜRKÇE DOĞAL DİL İŞLEME SENARYOSU
 ![image](https://github.com/esnylmz/Bilgi-Madencileri-2024-Teknofest/assets/102979440/c0e732f8-7cc1-46a9-b57f-ba6d28987075)
 
 #Acıkhack2024TDDİ #Türkiye Açık Kaynak Platformu
+### Modelimizin linki: https://huggingface.co/BilgiMadencileri/entity-sentiment-analysis
 
 # TAKIMIMIZ HAKKINDA: 
 Takımımız 2024 yılında İstanbul Bilgi Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisi olan Emine Esin Yılmaz, Ege Eylül Kırmızı ve Onur Çalışkan tarafından kurulmuştur. Takımımız 2024 yılı Türkçe Doğal Dil işleme Yarışmasına Senaryo kategorisinde katılmaya hak kazanmıştır.Takımımız geliştirilen proje ile sektör ile işbirliği içerisinde, verilerin Türkçe dil modelleri ile analizini, verilerin işlenerek sektöre fayda sağlayacak sonuçların ve model geliştirmelerinin elde edilmesini amaçlamaktadır. 
