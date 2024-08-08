@@ -47,7 +47,17 @@ Projede fine-tune edilen savasy/bert-base-turkish-sentiment-cased duygu analizi 
 İki modelin birleştirilmesi ve web-servisinin ayağa kaldırılması sonucunda modelin elde ettiği sonuçlar aşağıdaki gibidir:
 
 ![Sentiment Modeli Fine-Tune Sonuçları](./image_accuracies.png)
-(Bilgi eklense iyi olur)
+
+
+### Model Sonucu API ile kullanıcı tarafından verilecek metin ve sonuçlardan bir örnek aşağıda verilmiştir.
+- Projemize api'a search-entity arama çubuğu da eklenerek kullanıcının istediği entity'i ve verdiği textlerde o entity tarafından gelen tüm sonuçları alması amaçlanmıştır.
+
+- Girdi örneği:
+  ![API](./api.jpeg)
+
+
+-Çıktı örneği:
+  ![Sonuç örneği](./api_ile_sonuçlar.jpeg)
 
 
 # MODELİN ÇALIŞTIRILMASI
