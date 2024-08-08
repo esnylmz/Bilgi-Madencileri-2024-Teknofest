@@ -55,10 +55,10 @@ Projede fine-tune edilen savasy/bert-base-turkish-sentiment-cased duygu analizi 
 - Projemize api'a search-entity arama çubuğu da eklenerek kullanıcının istediği entity'i ve verdiği textlerde o entity tarafından gelen tüm sonuçları alması amaçlanmıştır.
 
 - Girdi örneği:
-<img src="./api.jpeg" alt="API" width="400" height="300"/>
+<img src="./api.jpeg" alt="API" width="600" height="300"/>
 
 - Çıktı örneği:
-<img src="./api_ile_sonuçlar.jpeg" alt="API" width="400" height="300"/>
+<img src="./api_ile_sonuçlar.jpeg" alt="API" width="600" height="300"/>
 
 # MODELİN ÇALIŞTIRILMASI
 
